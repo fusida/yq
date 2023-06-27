@@ -12,9 +12,9 @@ import (
 
 	errors "github.com/pkg/errors"
 
-	yaml "github.com/mikefarah/yaml/v2"
 	"github.com/spf13/cobra"
 	logging "gopkg.in/op/go-logging.v1"
+	yaml "gopkg.in/yaml.v2"
 )
 
 var trimOutput = true
